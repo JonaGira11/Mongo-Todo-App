@@ -31,6 +31,10 @@ app.engine('ejs', ejsMate)
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs' );
 
+app.get('/', (req, res) => {
+    res.redirect('/todos');
+  });
+
 //homepage 
 app.get('/todos',async(req, res) => {
     const todos = await Todo.find({});
