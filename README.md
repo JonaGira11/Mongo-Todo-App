@@ -24,6 +24,9 @@ then install dependicies
 ```
 npm i
 ```
+
+## Improvements:
+I think I could imporve the design overall and give it a cleaner look. The edit functionality could be improved instead of sending you to a whole new page I could make it so that a form appears to live update the todo. I could also add a feature instead of deleting todos when completed display them with a check or crossed out. 
 ## Built With:
 
 ### Front-end:
